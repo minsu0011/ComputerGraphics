@@ -109,6 +109,8 @@ def main():
                  0.0, 1.0, 0.0,
                  0.0, 0.0, 1.0)
     
+    print(M)
+    
     V_prime = M * V
 
     vertices = glm.array(glm.float32,

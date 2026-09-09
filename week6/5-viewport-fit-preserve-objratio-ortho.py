@@ -46,7 +46,7 @@ void main()
 
 def load_shaders(vertex_shader_source, fragment_shader_source):
     # build and compile our shader program
-    # ------------------------------------
+
     
     # vertex shader 
     vertex_shader = glCreateShader(GL_VERTEX_SHADER)    # create an empty shader object
@@ -166,11 +166,11 @@ def prepare_vao_cube():
         -0.5 , -0.5 , -0.5 ,  1, 1, 1, # v7
     )
 
-    # create and activate VAO (vertex array object)
+
     VAO = glGenVertexArrays(1)  # create a vertex array object ID and store it to VAO variable
     glBindVertexArray(VAO)      # activate VAO
 
-    # create and activate VBO (vertex buffer object)
+
     VBO = glGenBuffers(1)   # create a buffer object ID and store it to VBO variable
     glBindBuffer(GL_ARRAY_BUFFER, VBO)  # activate VBO as a vertex buffer object
 
@@ -199,11 +199,11 @@ def prepare_vao_frame():
          0.0, 0.0, 1.0,  0.0, 0.0, 1.0, # z-axis end 
     )
 
-    # create and activate VAO (vertex array object)
+
     VAO = glGenVertexArrays(1)  # create a vertex array object ID and store it to VAO variable
     glBindVertexArray(VAO)      # activate VAO
 
-    # create and activate VBO (vertex buffer object)
+
     VBO = glGenBuffers(1)   # create a buffer object ID and store it to VBO variable
     glBindBuffer(GL_ARRAY_BUFFER, VBO)  # activate VBO as a vertex buffer object
 

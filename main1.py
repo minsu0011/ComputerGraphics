@@ -71,7 +71,7 @@ ORBIT_SENS, PAN_SENS, ZOOM_SENS = 0.005, 0.01, 0.1
 
 def load_shaders(vertex_shader_source, fragment_shader_source):
     # build and compile our shader program
-    # ------------------------------------
+
     # vertex shader
     vertex_shader = glCreateShader(GL_VERTEX_SHADER)
     glShaderSource(vertex_shader, vertex_shader_source)

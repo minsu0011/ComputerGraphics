@@ -23,3 +23,5 @@ python main1.py
 OBJ 파일은 별도로 준비하며 키·마우스 동작은 각 프로그램의 callback에서 확인할 수 있습니다.
 
 [구현 노트](docs/implementation.md) · [소스 목록](docs/source-index.csv) · [출처](ATTRIBUTION.md)
+
+[전체 문서 안내](docs/README.md)
